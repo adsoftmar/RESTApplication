@@ -1,0 +1,9 @@
+{
+  "name": "restapplication",
+  "version": "0.0.0",
+  "description": "RESTApplication",
+  "main": "app.js",
+  "author": {
+    "name": "Adina Marian"
+  }
+}
