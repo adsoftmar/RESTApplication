@@ -1,3 +1,2 @@
-'use strict';
-
-console.log('Hello world');
+// imported our server
+require("./core/server");

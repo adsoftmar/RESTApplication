@@ -9,7 +9,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>68efb5d9-821d-4798-b041-2a670eeb745c</ProjectGuid>
+    <ProjectGuid>34d9f1b5-7b75-4776-b6f1-7d3a5b98c099</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
@@ -29,19 +29,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="config.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="controllers\employee.js">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="core\httpMsgs.js">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="core\server.js">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="core\db.js">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="settings.js">
       <SubType>Code</SubType>
     </Compile>
     <Content Include="package.json" />

@@ -1,0 +1,1 @@
+﻿var db = rewquire("../core/db");
